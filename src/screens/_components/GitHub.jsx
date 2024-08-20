@@ -7,7 +7,6 @@ const Content = () => {
                 target="_blank"
                 rel="noopener noreferrer"
             >
-
                 Mi Proyecto React (GitHub)
             </a>
         </div>
