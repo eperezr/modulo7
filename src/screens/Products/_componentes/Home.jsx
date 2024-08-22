@@ -20,9 +20,9 @@ const Home = () => {
     }, []);
 
     return (
-        <>
+        <div>
             <h5>{JSON.stringify(product.PRODUCTS)}</h5>
-        </>
+        </div>
     );
 };
 
