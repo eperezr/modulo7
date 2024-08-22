@@ -3,11 +3,11 @@ const Content = () => {
         <div>
             <a
                 className="App-link"
-                href="https://github.com/eperezr/modulo7.git"
+                href="https://github.com/dheeyi/desarrollo-frontend-react"
                 target="_blank"
                 rel="noopener noreferrer"
             >
-                Mi Proyecto React (GitHub)
+                Mi proyecto react (GitHub)
             </a>
         </div>
     );

@@ -1,22 +1,26 @@
-import Logo from './_components/Logo.jsx';
-import Description from './_components/Description.jsx';
-
-import OpenLink from '../components/OpenLink.jsx';
-import Contador from './_components/Contador.jsx';
-//import Product from './Product.jsx';
+import Logo from './Default/_components/Logo';
+import Description from "./Default/_components/Description";
+import OpenLink from '../components/OpenLink';
+import Contador from "./Default/_components/Contador";
 
 const Default = () => {
     return (
-        <header className="App-header">
-            <Contador />
-            
-            <Logo />
-            <Description />
-            <OpenLink title="Learn React" url="https://reactjs.org" />
-            <OpenLink title="Mi Proyecto React (GitHub)" url="https://github.com/eperezr/modulo7.git" />
-         </header>
+        <>
+            <header className="App-header">
+                <Contador />
+                <Logo />
+                <Description />
+                <OpenLink
+                    title="Learn React"
+                    url="https://react.dev/"
+                />
+                <OpenLink
+                    title="Mi proyecto react (Github)"
+                    url="https://github.com/dheeyi/desarrollo-frontend-react"
+                />
+            </header>
+        </>
     );
-
 };
 
-export default Default
+export default Default;

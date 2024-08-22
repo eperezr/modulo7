@@ -1,7 +1,7 @@
 import { SET_NAME_MODULE } from './defaultTypes';
 
 const initialState = {
-    name: 'Desarrollo FrontEnd con React',
+    name: 'Desarrollo Front End con React v5',
 };
 
 const defaultReducer = (state = initialState, action) => {
